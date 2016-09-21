@@ -1,0 +1,94 @@
+section
+{
+	margin-top: 7%;
+	margin-bottom: 7%; 
+}
+
+.inline-li
+{
+	display: inline-block;
+}
+
+img
+{
+	width: 100%;
+	height: 100%; 
+}
+
+#myCarousel img
+{
+	height: 70%; 
+}
+
+.social-link-img
+{
+	width: 100%;
+	height: 100%;	
+}
+
+.contact-us
+{
+	height: 100%;
+}
+
+.footer-nav
+{
+	text-align: center;
+}
+
+.header-hoz-gallary
+{
+	margin-bottom: 3%;
+}
+
+.text-align-centre
+{
+	text-align: center;
+}
+
+#Nishi-Agarwal
+{
+	font-size: 500%;
+	color: black;
+}
+
+.dull-black-color
+{
+	color: #666666;
+}
+
+.left-vertical-line
+{
+	border-left: 1px solid #dddddd;
+}
+
+.img-div
+{
+	height: 50%;
+}
+
+.thumbnail-div
+{
+	height: 80%;
+	margin-bottom: 5%;
+}
+
+.height-100
+{
+	height: 100%;
+}
+
+.thumbnail-img
+{
+	height: 60%;
+}
+
+.thumbnail-body
+{
+	height: 40%;
+}
+
+#social-link-div
+{
+	height:15%;
+}

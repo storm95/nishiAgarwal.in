@@ -7,9 +7,10 @@
 
 <?php
 	$msg = NULL;
-	if(isset($_GET["msg"]))
+	if(isset($_GET[$getMsg]))
 	{
-		$getMsg = $_GET["msg"];
+		$getMsgVal = $_GET[$getMsg];
+		$showMsgModal = true;
 	}
 ?>
 
@@ -128,3 +129,9 @@
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</body>
 </html>
+
+
+<?php 
+	if($showMsgModal)
+	  echo '<script> $("#msgModal").modal("show");</script>';
+?>

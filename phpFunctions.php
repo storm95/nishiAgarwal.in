@@ -1,4 +1,5 @@
 <?php  
+
 	function debugToConsole($dataTag, $data) 
 	{
 	    if(is_array($data) || is_object($data))
@@ -59,4 +60,36 @@
 
 		return $retPhotoRow;
 	}
+
+
+	function sendPwdVerifyCode($colEmailIdVal)
+	{
+		global $forgotChangePwdUrl, $sendPwdVerifyCode, $colPwdVerifyCode, $sendPwdVerifyCodeVal;
+
+		//send Mail
+		$colPwdVerifyCodeVal = generateRandomString();
+		
+		$retAddPwdVerifyCode = addPwdVerifyCode($colPwdVerifyCodeVal, $colEmailIdVal);
+		
+		$to = 'agarwalvivek113@gmail.com';
+		$subject = 'Password change';
+		$message = '<html> Please click <a href="'.$forgotChangePwdUrl.'?'.$sendPwdVerifyCode.'=2&'.$colPwdVerifyCode.'='.$colPwdVerifyCodeVal.'">this link</a> </html>';
+		$from = 'nishi@nishiagarwal.in';
+		$retSendMail = sendMail($to, $subject, $message, $from);
+		if(!$retSendMail)
+		{//Mail couldnot be sent
+			return 3;
+		}
+
+		if($retAddPwdVerifyCode == 1)
+		{//PwdVerifyCode added to db
+			return 1;
+		}
+		else
+		{//Could not add PwdVerifyCode to db
+			return 2;
+		}
+	}
+
+
 ?>

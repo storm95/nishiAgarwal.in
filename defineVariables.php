@@ -12,25 +12,29 @@
 	$uploadPhotoPhp = "uploadPhoto.php";
 	$queryFunctionsPhp = "queryFunctions.php";
 	$phpFunctionsPhp = "phpFunctions.php";
+	$loginSignupPhp = "loginSignup.php";
+	$forgotChangePwdPhp = "forgotChangePwd.php";
 
 	//Directories
 	$photoDir = "photos";
 	
 	//Get Variables
-	$getMsg = NULL;
+	$getMsg = "msg";
 	$getPhotoId = NULL;
 	$getDbChangeType = NULL;
+	$getMsgVal = NULL;
 
 	//Form Variables
 	$dbChangeType = "dbChangeType";
 	$dbChangeTypeAdd = "Add";
 	$dbChangeTypeDelete = "Delete";
 	$photoFile = "photoFile";
+	$sendPwdVerifyCode = "sendPwdVerifyCode";
 
 	//Database	
-	$host= 'localhost';// '182.50.133.90';
-	$user= 'storm95';
-	$password= 'choton';
+	$host= 'localhost'; //'182.50.133.85';
+	$user= 'nishi';
+	$password= 'nishi113';
 	$dbName = 'nishiAgarwalDb';
 	
 	//photoTable
@@ -41,10 +45,26 @@
 	$colRank = "rank";
 	$colPhotoFileName = "photoFileName";
 
+	//userTable
+	$userTableName = "userTable";
+	$colEmailId = "emailId";
+	$colPassword = "password";
+	$colLoginSignup = "loginSignup";
+	$colFullName = "fullName";
+	$colVerified = "verified";
+	$colVerifyCode = "verificationCode";
+
+	//forgotChangePwdTable
+	$forgotChangePwdTable = "forgotChangePwdTable";
+	$colPwdVerifyCode = "pwdVerifyCode";
+
 	//Site Urls
-	$siteUrlPrefix= 'localhost/NishiAgarwal/';
-	$indexPageUrl = $siteUrlPrefix + $indexPhp;
+	$siteUrlPrefix= 'localhost/NishiAgarwal/';//'http://nishiagarwal.in/';
+	$indexPageUrl = $siteUrlPrefix.$indexPhp;
+	$loginSignupUrl = $siteUrlPrefix.$loginSignupPhp;
+	$forgotChangePwdUrl = $siteUrlPrefix.$forgotChangePwdPhp;
 
 	//Variables
 	$noOfPhotosInRow = 3;
+	$showMsgModal = false;
 ?>

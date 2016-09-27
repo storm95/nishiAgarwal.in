@@ -92,3 +92,41 @@ img
 {
 	height:15%;
 }
+
+.display-hidden
+{
+	display: none;
+}
+
+.divAboutUs
+{
+	background: url(../Images/aboutUsBackground.png) repeat;
+	padding: 5% 5% 5% 5%;
+}
+
+.aboutUsHeadingDiv
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.aboutUsHeading
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.contentAboutUs
+{
+	padding: 5% 5% 5% 5%;
+	background-color: white;
+	font-size: 150%;
+	font-family: "Open Sans";
+	font-style: normal;
+}
+
+.impText
+{
+	font-style: italic;
+	font-weight: bold;
+}

@@ -18,48 +18,21 @@
 			<?php require("header.php"); ?>
 			<hr>
 			<section>
-				<div class="row">
-					<div>
-						<h2><span>About The Artist</span></h2>	
+				<div class="divAboutUs">
+					<div class="aboutUsHeadingDiv">
+						<h2 class="aboutUsHeading"><span>AN ACCIDENTAL ARTIST !</span></h2>
 					</div>
-				</div>
-				<div class="row">
-					<div>
-						<img src="Images/ArtistPic.jpg">
-					</div>
-				</div>
-			</section>
-			<hr>
-			<section>
-				<div class="row">
-					<div>
-						<p><span>BRING HOME THE NAPA VALLEY WITH "TEARING VINES" BY ANN REA, AN ORIGINAL OIL PAINTING</span></p>
-					</div>
-					<div>
-						<h4>ONCE UPON A TIME…</h4>
-						<p>a talented young girl pursued her dream of becoming a famous artist by attending a very prestigious and expensive art school.</p>
-						<p>For five years she learned how to make art…but not how to make money from it.</p>
-						<p>Then her student loan bill arrived.</p>
-						<p>She realized that she needed to make money, more than she needed to make art.</p>
-						<h3>EVERY DAY…</h3>
-						<p>…she commuted to a grey-base colored corporate cubicle.</p>
-						<p>But this artless existence drove her into a deeper depression and anxiety that she could not numb.</p>
-						<p>Too often she would sit with two work mates and pass the time by complaining about the relentless office politics and their dull career paths.</p>
-						<h4>BUT ONE DAY…</h4>
-						<p>…she remembered. Both of her work mates were in recovery from Stage IV breast cancer.</p>
-						<p>So she asked them, <em>“If you had a magic wand and you could do anything, and be assured of success, what would you do?”</em></p>
-						<p>One said, <em>“I don’t know.” </em></p>
-						<p>The other said, <em>“I’d be an interior designer. But I’m too afraid.” </em></p>
-						<p>Stunned. She asked, <em>"Are you afraid living what life you have left to the fullest more than you are of surviving cancer?"</em></p>
-						<h4>BECAUSE OF THAT…</h4>
-						<p>she picked up her brush and palette to paint again after seven years.</p>
-						<p>Then she wrote <span>a letter to an </span>American Art icon, Wayne Thiebaud, asking if he would critique her paintings.</p>
-						<p>To her delight he responded and offered her encouragement to pursue painting full time.  </p>
-						<h4>UNTIL FINALLY…</h4>
-						<p>… she just couldn’t take one more two-hour commute, and 13-hour day, working for another “team leader.”</p>
-						<p>So she decided to turn her dream of being a full time artist into her reality.</p>
-						<p>In 2005, she moved to the beach in San Francisco and she wrote a plan to sell over $100K in one year.</p>
-						<p>This unknown artist exceeded her sales goal and Fortune Magazine quoted her.</p>
+					<div class="contentAboutUs">
+						<div class="row">
+							<div class="img-div col-lg-5 col-md-5 col-sm-5 col-xs-5">
+								<img src="Images/profilePic.jpg">
+							</div>
+							<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<p>I am working for the coolest startup in the world as an operation consultant.</p>
+								<p><span class="impText">I believe in Magic & waiting for it to happen in life.</span></p>
+								<p>I was always scared to put my art work up on the world wide, but someday I had to because I always thought it was different. <span class="impText">Painting & Sketching</span> has always been something which has brought me to peace and its an imaginary world of its own once you are diving into it. <span class="impText">A world of possibilities & Absolute Magic.</span></p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

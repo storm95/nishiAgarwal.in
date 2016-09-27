@@ -3,6 +3,8 @@
 
 	require $defineVariablesPhp;
 	require $dbConnectPhp;
+	require $queryFunctionsPhp;
+	require $phpFunctionsPhp;
 ?>
 
 <?php

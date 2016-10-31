@@ -20,6 +20,12 @@
 		$colLoginSignupVal = 1 : Login
 		$colLoginSignupVal = 2 : Verify
 		*/
+		
+		/*
+		$colLoginSignupVal = 1 : Signup
+		$colLoginSignupVal = 2 : Login
+		$colLoginSignupVal = 3 : Verify
+		*/
 		if($colLoginSignupVal == 0) //$colLoginSignupVal = 0 : Signup
 		{
 			if((isset($_GET[$colEmailId]) && !is_null($_GET[$colEmailId]))

@@ -48,7 +48,7 @@
 								<p><span>Gmail : </span><span>xyz@odsiju.com</span></p>
 							</li>
 							<li>
-								<p><span>Phone No : </span><span>9999999999</span></p>
+								<p><span>Phone No : </span><span>7761847484</span></p>
 							</li>
 							<li>
 								<p><span>Facebook : </span><a href=""><span>Nishi</span></a></p>
